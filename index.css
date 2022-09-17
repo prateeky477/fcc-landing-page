@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    text-align: right;
+
+}
+
+.nav-link {
+    top: 0;
+    color: black;
+    text-decoration: none;
+
+    right: 0;
+}
+
+#form {
+    text-align: center;
+}
+
+#hd {
+    text-align: center;
+}
+
+#f-link {
+    text-align: right;
+}
+
+html {
+    background-color: white;
+}
+
+.f-link {
+    color: black;
+    text-decoration: none;
+}
+
+#footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+#b1 {
+    box-sizing: border-box;
+    width: 50%;
+    border: 10px solid #eee;
+    float: left;
+    padding: 10px;
+}
+
+#b2 {
+    box-sizing: border-box;
+    width: 50%;
+    border: 10px solid #eee;
+    float: left;
+    padding: 10px;
+}
+
+#video {
+    align-content: center;
+}
+
+body {
+    background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header-img {
+    width: 30vw;
+    height: 8vw;
+}
+
+nav {
+    font-weight: 400;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    #pricing {
+        flex-direction: column;
+    }
+}
